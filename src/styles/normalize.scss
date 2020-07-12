@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,15 @@
+@import "./normalize.scss";
+@import "./theme.scss";
+
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  background-color: $light-bg;
+  color: $light-txt;
+
+  // Based on device color scheme preference
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-bg;
+    color: $dark-txt;
+  }
+}
