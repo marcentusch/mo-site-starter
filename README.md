@@ -1,13 +1,9 @@
 # simple-site-starter
 
-Simple website starter template with webpack for bundling and no frameworks
+Super simple website starter template with no frameworks
 
-Uses sass for styling and includes some basic setup for theming and also includes a simple styling normalizer.
+Has some basic css normalizer and setup for theming based on system preference
 
 Also uses a simple service worker to cache content so it is available offline
 
-# Scripts
-
-To start dev server run `npm run dev`
-
-To build for production run `npm run build`
+# Development

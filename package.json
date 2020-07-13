@@ -4,7 +4,6 @@
   "private": true,
   "description": "Simple website starter template with parcel and no frameworks",
   "scripts": {
-    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,11 +16,6 @@
     "url": "https://github.com/marcentusch/simple-site-starter/issues"
   },
   "homepage": "https://github.com/marcentusch/simple-site-starter#readme",
-  "devDependencies": {
-    "sass": "^1.26.10",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  },
   "browserslist": [
     "last 2 chrome versions",
     "last 2 safari versions"

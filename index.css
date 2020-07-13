@@ -1,0 +1,52 @@
+/*#region simple normalize*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+/*#endregion*/
+
+/*#region variables*/
+:root {
+  --light-bg: #fef6e4;
+  --light-txt: #001858;
+
+  --dark-bg: #004643;
+  --dark-txt: #fffffe;
+}
+/*#endregion*/
+
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  padding: 3rem 8%;
+  background-color: var(--light-bg);
+  color: var(--light-txt);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-bg);
+    color: var(--dark-txt);
+  }
+}
