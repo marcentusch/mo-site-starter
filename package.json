@@ -21,5 +21,9 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
-  }
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 safari versions"
+  ]
 }
