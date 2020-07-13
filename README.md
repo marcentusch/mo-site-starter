@@ -1,8 +1,8 @@
 # simple-site-starter
 
-Simple website starter template with parcel and no frameworks
+Simple website starter template with webpack for bundling and no frameworks
 
-Uses scss for styling and includes some basic setup for theming and also includes a simple styling normalizer.
+Uses sass for styling and includes some basic setup for theming and also includes a simple styling normalizer.
 
 Also uses a simple service worker to cache content so it is available offline
 
