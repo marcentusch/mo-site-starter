@@ -1,0 +1,20 @@
+{
+  "name": "Simple Starter",
+  "short_name": "Simple Starter",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fef6e4",
+  "theme_color": "#fef6e4",
+  "icons": [
+    {
+      "src": "/img/icon-min.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-min.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ]
+}
