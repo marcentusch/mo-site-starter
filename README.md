@@ -12,6 +12,8 @@ Also uses a simple service worker to cache content so it is available offline
 
 - Pure CSS theming based on system/browser color preference
 - Caches assets for offline mode with a service worker
+- Is set up for Progressive Web App, so users on mobile will be asked if they want to add the site to their home page
+- Has 100 points in all Lighthouse categories(at least when deployed on Netlify)
 
 # Development
 

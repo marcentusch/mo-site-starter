@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Simple website starter template with parcel and no frameworks",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "browserslist": [
     "last 2 chrome versions",
     "last 2 safari versions"
-  ]
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
