@@ -16,6 +16,7 @@ Project is missing a bundler. I have tried both parcel and webpack but had issue
 - Caches assets for offline mode with a service worker
 - Is set up for Progressive Web App, so users on mobile will be asked if they want to add the site to their home page
 - Has 100 points in all Lighthouse categories(at least when deployed on Netlify)
+- Uses system font face so we avoid waiting on google fonts and will have familiar font dependent upon which device the user is coming from. Copied from how GitHub does it
 
 # Development
 
