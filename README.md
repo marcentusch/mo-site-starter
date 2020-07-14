@@ -8,6 +8,8 @@ Has some basic css normalizer and setup for theming based on system preference
 
 Also uses a simple service worker to cache content so it is available offline
 
+Project is missing a bundler. I have tried both parcel and webpack but had issues with deploying. Will look into it at some point
+
 ## Features
 
 - Pure CSS theming based on system/browser color preference
@@ -17,4 +19,13 @@ Also uses a simple service worker to cache content so it is available offline
 
 # Development
 
-For VSCode - Live Server
+For now I do not use a bundler or anything project specific to setup dev server.
+Simple solution is to use Live Server in VSCode
+
+## List of things to replace
+
+- This Readme
+- Meta tags and title in index.html
+- `name` in package.json
+- `name` and `short_name` in manifest.json
+- icons in /images, 192x192 px and 512x512 px
