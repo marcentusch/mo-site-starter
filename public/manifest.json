@@ -1,7 +1,7 @@
 {
   "name": "Simple Starter",
   "short_name": "Simple Starter",
-  "start_url": "../index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fef6e4",
   "theme_color": "#fef6e4",
