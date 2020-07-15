@@ -71,3 +71,12 @@ main {
 aside {
   width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+  }
+}

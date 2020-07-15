@@ -23,7 +23,7 @@ Project is missing a bundler. I have tried both parcel and webpack but had issue
 For now I do not use a bundler or anything project specific to setup dev server.
 Simple solution is to use Live Server in VSCode
 
-## List of things to replace
+## List of things to replace when starting
 
 - This Readme
 - Meta tags and title in index.html
