@@ -45,13 +45,6 @@ body {
   color: var(--light-txt);
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--dark-bg);
-    color: var(--dark-txt);
-  }
-}
-
 h1 {
   font-weight: bold;
   font-size: 2.3rem;
@@ -73,7 +66,8 @@ aside {
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+/* #region Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
   main {
     flex-direction: row;
   }
@@ -81,3 +75,18 @@ aside {
     width: 50%;
   }
 }
+/* #endregion */
+
+/* #region Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) {
+}
+/* #endregion */
+
+/* #region Dark theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-bg);
+    color: var(--dark-txt);
+  }
+}
+/* #endregion */
