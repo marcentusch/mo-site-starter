@@ -1,6 +1,6 @@
-# simple-site-starter
+# MO-Site-Starter
 
-Super simple website starter template with no frameworks
+Marc Obels's simple website starter template with no frameworks
 
 Purpose for this is for me(or anyone who stumbles upon this) to have a easy starting point when working on smaller projects where frameworks and bundlers are not neccesary
 

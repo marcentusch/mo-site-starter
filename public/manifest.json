@@ -1,6 +1,6 @@
 {
-  "name": "Simple Starter",
-  "short_name": "Simple Starter",
+  "name": "MO Simple Starter",
+  "short_name": "MO Simple Starter",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fef6e4",
