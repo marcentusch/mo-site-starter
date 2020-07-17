@@ -1,18 +1,18 @@
 {
   "name": "MO Simple Starter",
   "short_name": "MO Simple Starter",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#fef6e4",
   "theme_color": "#fef6e4",
   "icons": [
     {
-      "src": "/images/icon-192.png",
+      "src": "./images/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icon-512.png",
+      "src": "./images/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -1,24 +1,25 @@
 {
-  "name": "simple-site-starter",
+  "name": "mo-site-starter",
   "version": "1.0.0",
   "description": "Simple website starter template with parcel and no frameworks",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "sass sass:public/css --style compressed --no-source-map",
+    "sass-watch": "sass sass:public/css --watch --style compressed --no-source-map"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcentusch/simple-site-starter.git"
+    "url": "git+https://github.com/marcentusch/mo-site-starter.git"
   },
   "author": "Marc Obel",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marcentusch/simple-site-starter/issues"
-  },
-  "homepage": "https://github.com/marcentusch/simple-site-starter#readme",
+  "homepage": "https://github.com/marcentusch/mo-site-starter#readme",
   "browserslist": [
     "last 2 chrome versions",
     "last 2 safari versions"
-  ]
+  ],
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "sass": "^1.26.10"
+  }
 }
