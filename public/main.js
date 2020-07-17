@@ -3,7 +3,7 @@
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
-      .register("/serviceworker.js")
+      .register("./serviceworker.js")
       // Service Worker registered successfully
       .then((reg) => {
         return;
