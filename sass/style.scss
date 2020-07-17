@@ -1,48 +1,20 @@
-/*#region simple normalize*/
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-img,
-embed,
-svg,
-iframe,
-object,
-audio,
-video {
-  height: auto;
-  max-width: 100%;
-}
-
-ul {
-  list-style: none;
-}
-/*#endregion*/
-
-/*#region variables*/
-:root {
-  --light-bg: #fef6e4;
-  --light-txt: #001858;
-
-  --dark-bg: #004643;
-  --dark-txt: #fffffe;
-}
-/*#endregion*/
+@import "_settings.scss";
+@import "_normalize.scss";
+@import "_animations.scss";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding: 3rem 12%;
-  background-color: var(--light-bg);
-  color: var(--light-txt);
+  color: var(--dark-txt);
+  background-color: var(--dark-bg);
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: var(--light-bg);
+      color: var(--light-txt);
+    }
+  }
 }
 
 h1 {
@@ -79,14 +51,5 @@ aside {
 
 /* #region Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px) {
-}
-/* #endregion */
-
-/* #region Dark theme */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--dark-bg);
-    color: var(--dark-txt);
-  }
 }
 /* #endregion */

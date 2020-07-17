@@ -1,0 +1,28 @@
+@keyframes shadow-float {
+  from {
+    transform: translateY(0px);
+    transform: scale(1);
+  }
+  to {
+    transform: translateY(50px);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes floaty-float {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+
+.floaty {
+  animation: floaty-float 1.5s infinite alternate ease-in-out;
+}
+
+.floaty-shadow {
+  transform-origin: center;
+  animation: shadow-float 1.5s infinite alternate ease-in-out;
+}

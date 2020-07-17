@@ -1,6 +1,6 @@
 # MO-Site-Starter
 
-Marc Obels's simple website starter template with no frameworks
+Marc Obels's simple website starter template with no frameworks and minimal JavaScript
 
 Purpose for this is for me(or anyone who stumbles upon this) to have a easy starting point when working on smaller projects where frameworks and bundlers are not neccesary
 
@@ -20,8 +20,8 @@ Project is missing a bundler. I have tried both parcel and webpack but had issue
 
 # Development
 
-For now I do not use a bundler or anything project specific to setup dev server.
-Simple solution is to use Live Server in VSCode
+`npm run sass-watch`
+[I use this extension for serving files and hot reloading](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## List of things to replace when starting
 
